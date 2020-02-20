@@ -11,6 +11,9 @@ It is an architectural design style for distributed systems.
 <li> Visibility</li>
 
 ### REST Constraints:
-<li> Client-Server Architecture : The main principle is <span style="color: green"> separation of concern </span>. Server will be in
+<li> Client-Server Architecture : The main principle is "separation of concern". Server will be in
                                 charge to handle the request from the client. The client and server code
                                 is independent. The change in the Client or Server will not impact on each other.</li>
+<li> Stateless: Communication between client and server must be stateless, meaning that each request done from the client must have all the information required for the server to understand it, without taking advantage of any stored data.</li>
+<li> Cacheable: By caching the responses, there are some obvious benefits that get added to the architecture: on the server side, some interactions (a database request, for example) are completely bypassed while the content is cached. On the client side, an apparent improvement of performance is perceived.</li>
+<li> Uniform Interface: In order to achieve the uniform interface, a new set of constraints must be added to the interface:identification of resources, manipulation of resources through representation, self-descriptive messages, and hypermedia as the engine of application state (a.k.a HATEOAS). I’ll discuss some of these constraints shortly.</li>
