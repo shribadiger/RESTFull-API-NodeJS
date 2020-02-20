@@ -11,6 +11,6 @@ It is an architectural design style for distributed systems.
 <li> Visibility</li>
 
 ### REST Constraints:
-<li> Client-Server Architecture : The main principle is *separation of concern*. Server will be in
+<li> Client-Server Architecture : The main principle is <span style="color: green"> separation of concern </span>. Server will be in
                                 charge to handle the request from the client. The client and server code
                                 is independent. The change in the Client or Server will not impact on each other.</li>
