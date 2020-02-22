@@ -1,9 +1,9 @@
 # Rest API Development in Node JS
 ### INDEX ###
 * [Introduction](https://github.com/shribadiger/RESTFull-API-NodeJS/blob/master/README.md)
-* [Content Negotiation](https://github.com/shribadiger/RESTFull-API-NodeJS/blob/master/page2.md)
-* [Status Code](https://github.com/shribadiger/RESTFull-API-NodeJS/blob/master/page3.md)
-* [API Design Best Practices](https://github.com/shribadiger/RESTFull-API-NodeJS/blob/master/page4.md)
+* [Content Negotiation](https://github.com/shribadiger/RESTFull-API-NodeJS/blob/master/Page2.md)
+* [Status Code](https://github.com/shribadiger/RESTFull-API-NodeJS/blob/master/Page3.md)
+* [API Design Best Practices](https://github.com/shribadiger/RESTFull-API-NodeJS/blob/master/Page4.md)
 
 REST -- Representational State Transfer. 
 It is an architectural design style for distributed systems.
