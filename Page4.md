@@ -18,3 +18,12 @@ JSON gaining stars as transport language in REST based communication. Here some 
 This is very important in case of API failure. Client should able to understand and take appropirate action based on the error condition.
 * _Phase 1: The development of Client_
 * _Phase 2: The client is implemented and being used by end users_
+
+## Architecture of RESTfull API Development ##
+* Request Handler: Handle the incoming request
+* Pre-Processing Chain: Check the authentication details in coming request and validate the inputs request.
+* Route Handler: Validate the request and enrich the request by adding the data required for the request handling component.
+* Controller: Resposible to handle the request to perticular resource.
+* Model: Resource to handle the incoming request.
+* Representation Layer: Representational data will get create for client to view on his/her app. 
+* Response Layer: 
